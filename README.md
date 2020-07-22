@@ -1,4 +1,5 @@
-###Very simple demo of using react-dnd, recoiljs to build a calendar
+# Very simple demo of using react-dnd, recoiljs to build a calendar
+
 URL: https://calendar-dnd.vercel.app/
 
 Tasks:
