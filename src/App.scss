@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.button-primary {
+  background-color: #5a57cb;
+  border-radius: 6px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-cancel {
+  border-radius: 6px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  color: rgb(196, 196, 196);
+  text-align: center;
+  margin-left: 5px;
+  cursor: pointer;
+}

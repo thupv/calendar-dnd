@@ -1,0 +1,44 @@
+.exercise {
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+
+  .name {
+    text-align: right;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #000000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+
+  .exercise__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+    color: #95a6b7;
+    .sets {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .info {
+      flex: 1;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      text-align: right;
+      padding-left: 15px;
+      font-size: 12px;
+    }
+  }
+}

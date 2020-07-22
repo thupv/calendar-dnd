@@ -1,0 +1,6 @@
+const DRAG_DROP_ITEM_TYPE = {
+  WORKOUT: 'WORKOUT',
+  EXERCISE: 'EXERCISE'
+}
+
+export default  DRAG_DROP_ITEM_TYPE;

@@ -1,0 +1,52 @@
+.add-workout {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  padding: 5px;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  color: #5a57cb;
+  display: block;
+  max-height: 100px;
+  &:hover {
+    background: #F3F5F8;
+  }
+
+  .add-workout-placeholder {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .new-workout-text {
+      margin-left: 5px;
+      font-size: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .add-workout-form {
+    display: block;
+    font-size: 12px;
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      border: 0px;
+      color: #5a57cb;
+      font-weight: bold;
+      background: transparent;
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .add-workout-form__footer {
+      display: flex;
+      margin-top: 5px;
+      .add-workout-form-submit {
+        width: 50px;
+      }
+      .add-workout-form-close {
+        width: 25px;
+      }
+    }
+  }
+}

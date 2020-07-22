@@ -1,0 +1,47 @@
+.dayplan {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: calc(100% / 7);
+  padding: 15px 6px;
+  box-sizing: border-box;
+
+  .title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #6a7988;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .content {
+    background: rgba(243, 245, 248, 0.8);
+    padding: 7px 5px 30px 5px;
+    flex: 1;
+    overflow-y: auto;
+    mix-blend-mode: normal;
+    border-radius: 6px;
+
+    &::-webkit-scrollbar {
+    }
+
+    .day-of-month {
+      color: #728096;
+      font-size: 11px;
+      margin-bottom: 10px;
+
+      &.today {
+        color: #5a57cb;
+        font-weight: bold;
+      }
+
+      &.active {
+        color: #5a57cb;
+        font-weight: 700;
+      }
+    }
+  }
+}
